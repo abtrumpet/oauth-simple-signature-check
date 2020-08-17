@@ -1,6 +1,8 @@
 ### oauth-simple-signature-check
 This package is a simple way to quickly test an OAuth 1.0a signature for validity. As it is intended to be extremely simple, there are no configuration options; however, you may use it as a base if you need different behavior. The algorithm for validating OAuth signatures was adapted from this site: http://lti.tools/oauth/
 
+It was originally designed to simplify OAuth signature validation within the LTI (Learning Tools Interopability) spec, but it can be adapted to many other uses as well.
+
 ## Assumptions
 The package works out-of-the-box with Express.js.
 
