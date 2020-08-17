@@ -1,0 +1,26 @@
+{
+  "name": "oauth-simple-signature-check",
+  "version": "1.0.0",
+  "description": "A simple OAuth 1.0a signature verification package.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abtrumpet/oauth-simple-signature-check.git"
+  },
+  "keywords": [
+    "oauth"
+  ],
+  "author": "Austin Benesh (austin@austinbenesh.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abtrumpet/oauth-simple-signature-check/issues"
+  },
+  "homepage": "https://github.com/abtrumpet/oauth-simple-signature-check#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "ramda": "^0.27.1"
+  }
+}
